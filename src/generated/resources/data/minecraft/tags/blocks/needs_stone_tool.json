@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "id": "spelunkeryplus:cc_andesite_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_diorite_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_granite_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_tuff_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_andesite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_diorite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_granite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_tuff_silver_ore",
+      "required": false
+    }
+  ]
+}

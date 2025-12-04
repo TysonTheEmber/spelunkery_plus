@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "spelunkeryplus:block/mm_rough_unbreaking_iolite_block"
+  }
+}

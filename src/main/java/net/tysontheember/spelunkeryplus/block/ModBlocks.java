@@ -105,117 +105,117 @@ public class ModBlocks {
 
 //Mining Master
 // Mining Master
-    public static final RegistryObject<Block> MM_RAW_AIR_MALACHITE_BLOCK =
+    public static final RegistryObject<Block> MM_ROUGH_AIR_MALACHITE_BLOCK =
             ModList.get().isLoaded("miningmaster")
-                    ? registerBlock("mm_raw_air_malachite_block",
+                    ? registerBlock("mm_rough_air_malachite_block",
                     () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                             .mapColor(MapColor.COLOR_LIGHT_BLUE)
                             .requiresCorrectToolForDrops()
                             .strength(5.0F, 6.0F)))
                     : null;
 
-        public static final RegistryObject<Block> MM_RAW_DIVE_AQUAMARINE_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_DIVE_AQUAMARINE_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_dive_aquamarine_block",
+                        ? registerBlock("mm_rough_dive_aquamarine_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_DIVINE_BERYL_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_DIVINE_BERYL_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_divine_beryl_block",
+                        ? registerBlock("mm_rough_divine_beryl_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_FIRE_RUBY_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_FIRE_RUBY_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_fire_ruby_block",
+                        ? registerBlock("mm_rough_fire_ruby_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_HASTE_PERIDOT_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_HASTE_PERIDOT_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_haste_peridot_block",
+                        ? registerBlock("mm_rough_haste_peridot_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_HEART_RHODONITE_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_HEART_RHODONITE_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_heart_rhodonite_block",
+                        ? registerBlock("mm_rough_heart_rhodonite_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_ICE_SAPPHIRE_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_ICE_SAPPHIRE_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_ice_sapphire_block",
+                        ? registerBlock("mm_rough_ice_sapphire_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_KINETIC_OPAL_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_KINETIC_OPAL_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_kinetic_opal_block",
+                        ? registerBlock("mm_rough_kinetic_opal_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_LUCKY_CITRINE_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_LUCKY_CITRINE_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_lucky_citrine_block",
+                        ? registerBlock("mm_rough_lucky_citrine_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_POWER_PYRITE_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_POWER_PYRITE_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_power_pyrite_block",
+                        ? registerBlock("mm_rough_power_pyrite_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_SPIDER_KUNZITE_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_SPIDER_KUNZITE_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_spider_kunzite_block",
+                        ? registerBlock("mm_rough_spider_kunzite_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_SPIRIT_GARNET_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_SPIRIT_GARNET_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_spirit_garnet_block",
+                        ? registerBlock("mm_rough_spirit_garnet_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
                                 .strength(5.0F, 6.0F)))
                         : null;
 
-        public static final RegistryObject<Block> MM_RAW_UNBREAKING_IOLITE_BLOCK =
+        public static final RegistryObject<Block> MM_ROUGH_UNBREAKING_IOLITE_BLOCK =
                 ModList.get().isLoaded("miningmaster")
-                        ? registerBlock("mm_raw_unbreaking_iolite_block",
+                        ? registerBlock("mm_rough_unbreaking_iolite_block",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                 .mapColor(MapColor.COLOR_LIGHT_BLUE)
                                 .requiresCorrectToolForDrops()
@@ -229,72 +229,65 @@ public class ModBlocks {
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_andesite_dive_aquamarine_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_ANDESITE_DIVINE_BERYL_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_andesite_divine_beryl_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
+
 
         public static final RegistryObject<Block> MM_ANDESITE_FIRE_RUBY_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_andesite_fire_ruby_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
+
 
         public static final RegistryObject<Block> MM_ANDESITE_HASTE_PERIDOT_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_andesite_haste_peridot_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_ANDESITE_ICE_SAPPHIRE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_andesite_ice_sapphire_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_ANDESITE_LUCKY_CITRINE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_andesite_lucky_citrine_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_ANDESITE_SPIDER_KUNZITE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_andesite_spider_kunzite_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_ANDESITE_SPIRIT_GARNET_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_andesite_spirit_garnet_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_ANDESITE_UNBREAKING_IOLITE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_andesite_unbreaking_iolite_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
 
@@ -303,72 +296,63 @@ public class ModBlocks {
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_diorite_dive_aquamarine_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_DIORITE_DIVINE_BERYL_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_diorite_divine_beryl_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_DIORITE_FIRE_RUBY_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_diorite_fire_ruby_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_DIORITE_HASTE_PERIDOT_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_diorite_haste_peridot_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_DIORITE_ICE_SAPPHIRE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_diorite_ice_sapphire_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_DIORITE_LUCKY_CITRINE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_diorite_lucky_citrine_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_DIORITE_SPIDER_KUNZITE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_diorite_spider_kunzite_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_DIORITE_SPIRIT_GARNET_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_diorite_spirit_garnet_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_DIORITE_UNBREAKING_IOLITE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_diorite_unbreaking_iolite_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         //GRANITE
@@ -376,146 +360,128 @@ public class ModBlocks {
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_granite_dive_aquamarine_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_GRANITE_DIVINE_BERYL_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_granite_divine_beryl_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_GRANITE_FIRE_RUBY_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_granite_fire_ruby_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_GRANITE_HASTE_PERIDOT_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_granite_haste_peridot_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_GRANITE_ICE_SAPPHIRE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_granite_ice_sapphire_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_GRANITE_LUCKY_CITRINE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_granite_lucky_citrine_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_GRANITE_SPIDER_KUNZITE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_granite_spider_kunzite_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_GRANITE_SPIRIT_GARNET_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_granite_spirit_garnet_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         public static final RegistryObject<Block> MM_GRANITE_UNBREAKING_IOLITE_ORE =
                 ModList.get().isLoaded("miningmaster")
                         ? registerBlock("mm_granite_unbreaking_iolite_ore",
                         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                .strength(3.0F)
-                                .requiresCorrectToolForDrops()))
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
                         : null;
 
         //TUFF
         public static final RegistryObject<Block> MM_TUFF_DIVE_AQUAMARINE_ORE =
             ModList.get().isLoaded("miningmaster")
                     ? registerBlock("mm_tuff_dive_aquamarine_ore",
-                    () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                            .strength(3.0F)
-                            .requiresCorrectToolForDrops()))
-                    : null;
+                        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
+                        : null;
 
     public static final RegistryObject<Block> MM_TUFF_DIVINE_BERYL_ORE =
             ModList.get().isLoaded("miningmaster")
                     ? registerBlock("mm_tuff_divine_beryl_ore",
-                    () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                            .strength(3.0F)
-                            .requiresCorrectToolForDrops()))
-                    : null;
+                        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
+                        : null;
 
     public static final RegistryObject<Block> MM_TUFF_FIRE_RUBY_ORE =
             ModList.get().isLoaded("miningmaster")
                     ? registerBlock("mm_tuff_fire_ruby_ore",
-                    () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                            .strength(3.0F)
-                            .requiresCorrectToolForDrops()))
-                    : null;
+                        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
+                        : null;
 
     public static final RegistryObject<Block> MM_TUFF_HASTE_PERIDOT_ORE =
             ModList.get().isLoaded("miningmaster")
                     ? registerBlock("mm_tuff_haste_peridot_ore",
-                    () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                            .strength(3.0F)
-                            .requiresCorrectToolForDrops()))
-                    : null;
+                        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
+                        : null;
 
     public static final RegistryObject<Block> MM_TUFF_ICE_SAPPHIRE_ORE =
             ModList.get().isLoaded("miningmaster")
                     ? registerBlock("mm_tuff_ice_sapphire_ore",
-                    () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                            .strength(3.0F)
-                            .requiresCorrectToolForDrops()))
-                    : null;
+                        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
+                        : null;
 
     public static final RegistryObject<Block> MM_TUFF_LUCKY_CITRINE_ORE =
             ModList.get().isLoaded("miningmaster")
                     ? registerBlock("mm_tuff_lucky_citrine_ore",
-                    () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                            .strength(3.0F)
-                            .requiresCorrectToolForDrops()))
-                    : null;
+                        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
+                        : null;
 
     public static final RegistryObject<Block> MM_TUFF_SPIDER_KUNZITE_ORE =
             ModList.get().isLoaded("miningmaster")
                     ? registerBlock("mm_tuff_spider_kunzite_ore",
-                    () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                            .strength(3.0F)
-                            .requiresCorrectToolForDrops()))
-                    : null;
+                        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
+                        : null;
 
     public static final RegistryObject<Block> MM_TUFF_SPIRIT_GARNET_ORE =
             ModList.get().isLoaded("miningmaster")
                     ? registerBlock("mm_tuff_spirit_garnet_ore",
-                    () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                            .strength(3.0F)
-                            .requiresCorrectToolForDrops()))
-                    : null;
+                        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
+                        : null;
 
     public static final RegistryObject<Block> MM_TUFF_UNBREAKING_IOLITE_ORE =
             ModList.get().isLoaded("miningmaster")
                     ? registerBlock("mm_tuff_unbreaking_iolite_ore",
-                    () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                            .strength(3.0F)
-                            .requiresCorrectToolForDrops()))
-                    : null;
+                        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
+                                .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)))
+                        : null;
 
 
 
@@ -665,29 +631,32 @@ public class ModBlocks {
             ModList.get().isLoaded("caverns_and_chasms") ?
                     registerBlock("cc_andesite_spinel_ore",
                             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)
-                                    .strength(3.0F)
-                                    .requiresCorrectToolForDrops())) : null;
+                                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)))
+                    : null;
 
     public static final RegistryObject<Block> CC_DIORITE_SPINEL_ORE =
             ModList.get().isLoaded("caverns_and_chasms") ?
                     registerBlock("cc_diorite_spinel_ore",
                             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)
-                                    .strength(3.0F)
-                                    .requiresCorrectToolForDrops())) : null;
+                                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)))
+                    : null;
+
 
     public static final RegistryObject<Block> CC_GRANITE_SPINEL_ORE =
             ModList.get().isLoaded("caverns_and_chasms") ?
                     registerBlock("cc_granite_spinel_ore",
                             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                                    .strength(3.0F)
-                                    .requiresCorrectToolForDrops())) : null;
+                                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)))
+                    : null;
+
 
     public static final RegistryObject<Block> CC_TUFF_SPINEL_ORE =
             ModList.get().isLoaded("caverns_and_chasms") ?
                     registerBlock("cc_tuff_spinel_ore",
                             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)
-                                    .strength(3.0F)
-                                    .requiresCorrectToolForDrops())) : null;
+                                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)))
+                    : null;
+
 
     public static final RegistryObject<Block> CC_ROUGH_SPINEL_BLOCK =
             ModList.get().isLoaded("caverns_and_chasms") ?

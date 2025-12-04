@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "spelunkeryplus:iaf_andesite_silver_ore",
+    "spelunkeryplus:iaf_diorite_silver_ore",
+    "spelunkeryplus:iaf_granite_silver_ore",
+    "spelunkeryplus:iaf_tuff_silver_ore",
+    "spelunkeryplus:cc_andesite_silver_ore",
+    "spelunkeryplus:cc_diorite_silver_ore",
+    "spelunkeryplus:cc_granite_silver_ore",
+    "spelunkeryplus:cc_tuff_silver_ore"
+  ]
+}

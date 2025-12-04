@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunkeryplus:mm_rough_lucky_citrine_block"
+    }
+  ],
+  "result": {
+    "item": "spelunkeryplus:mm_rough_lucky_citrine",
+    "count": 4
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "iceandfire"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "S": {
+            "item": "spelunkeryplus:iaf_sapphire_shard"
+          }
+        },
+        "pattern": [
+          "SSS",
+          "SSS",
+          "SSS"
+        ],
+        "result": {
+          "item": "iceandfire:sapphire_gem"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

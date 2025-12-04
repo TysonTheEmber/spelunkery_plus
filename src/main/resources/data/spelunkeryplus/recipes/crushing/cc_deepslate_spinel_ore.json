@@ -17,10 +17,12 @@
   ],
   "results": [
     {
-      "item": "spelunkeryplus:cc_rough_spinel"
+      "item": "spelunkeryplus:cc_rough_spinel",
+      "count": 2
     },
     {
       "item": "spelunkeryplus:cc_rough_spinel",
+      "count": 2,
       "chance": 0.75
     },
     {

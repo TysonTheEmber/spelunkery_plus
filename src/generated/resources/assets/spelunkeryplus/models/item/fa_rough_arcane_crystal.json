@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "spelunkeryplus:item/fa_rough_arcane_crystal"
+  }
+}

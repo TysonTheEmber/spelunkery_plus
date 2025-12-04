@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "spelunkeryplus:iaf_rough_sapphire"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "spelunkeryplus:iaf_rough_sapphire_shard"
+  }
+}

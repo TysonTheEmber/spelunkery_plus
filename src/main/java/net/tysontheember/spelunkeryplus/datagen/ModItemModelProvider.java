@@ -22,19 +22,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.IAF_SAPPHIRE_SHARD);
         simpleItem(ModItems.IAF_ROUGH_SAPPHIRE_SHARD);
 
-        simpleItem(ModItems.MM_RAW_AIR_MALACHITE);
-        simpleItem(ModItems.MM_RAW_DIVE_AQUAMARINE);
-        simpleItem(ModItems.MM_RAW_DIVINE_BERYL);
-        simpleItem(ModItems.MM_RAW_FIRE_RUBY);
-        simpleItem(ModItems.MM_RAW_HASTE_PERIDOT);
-        simpleItem(ModItems.MM_RAW_HEART_RHODONITE);
-        simpleItem(ModItems.MM_RAW_ICE_SAPPHIRE);
-        simpleItem(ModItems.MM_RAW_KINETIC_OPAL);
-        simpleItem(ModItems.MM_RAW_LUCKY_CITRINE);
-        simpleItem(ModItems.MM_RAW_POWER_PYRITE);
-        simpleItem(ModItems.MM_RAW_SPIDER_KUNZITE);
-        simpleItem(ModItems.MM_RAW_SPIRIT_GARNET);
-        simpleItem(ModItems.MM_RAW_UNBREAKING_IOLITE);
+        simpleItem(ModItems.MM_ROUGH_AIR_MALACHITE);
+        simpleItem(ModItems.MM_ROUGH_DIVE_AQUAMARINE);
+        simpleItem(ModItems.MM_ROUGH_DIVINE_BERYL);
+        simpleItem(ModItems.MM_ROUGH_FIRE_RUBY);
+        simpleItem(ModItems.MM_ROUGH_HASTE_PERIDOT);
+        simpleItem(ModItems.MM_ROUGH_HEART_RHODONITE);
+        simpleItem(ModItems.MM_ROUGH_ICE_SAPPHIRE);
+        simpleItem(ModItems.MM_ROUGH_KINETIC_OPAL);
+        simpleItem(ModItems.MM_ROUGH_LUCKY_CITRINE);
+        simpleItem(ModItems.MM_ROUGH_POWER_PYRITE);
+        simpleItem(ModItems.MM_ROUGH_SPIDER_KUNZITE);
+        simpleItem(ModItems.MM_ROUGH_SPIRIT_GARNET);
+        simpleItem(ModItems.MM_ROUGH_UNBREAKING_IOLITE);
 
         simpleItem(ModItems.CC_ROUGH_SPINEL_SHARD);
         simpleItem(ModItems.CC_ROUGH_SPINEL);

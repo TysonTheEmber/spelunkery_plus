@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "spelunkeryplus:iaf_rough_sapphire_shard"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "result": {
+    "item": "spelunkeryplus:iaf_rough_sapphire"
+  },
+  "show_notification": true
+}

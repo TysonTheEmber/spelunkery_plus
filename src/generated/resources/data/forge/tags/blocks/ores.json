@@ -1,0 +1,464 @@
+{
+  "values": [
+    {
+      "id": "forbidden_arcanus:fa_tuff_arcane_crystal_ore",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:fa_andesite_arcane_crystal_ore",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:fa_diorite_arcane_crystal_ore",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:fa_granite_arcane_crystal_ore",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:fa_runic_andesite",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:fa_runic_diorite",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:fa_runic_granite",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:fa_runic_tuff",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_dive_aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_dive_aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_divine_beryl_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_divine_beryl_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_fire_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_fire_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_haste_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_haste_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_ice_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_ice_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_lucky_citrine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_lucky_citrine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_spider_kunzite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_spider_kunzite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_spirit_garnet_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_spirit_garnet_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_unbreaking_iolite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_andesite_unbreaking_iolite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_dive_aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_dive_aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_divine_beryl_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_divine_beryl_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_fire_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_fire_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_haste_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_haste_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_ice_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_ice_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_lucky_citrine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_lucky_citrine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_spider_kunzite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_spider_kunzite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_spirit_garnet_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_spirit_garnet_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_unbreaking_iolite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_diorite_unbreaking_iolite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_dive_aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_dive_aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_divine_beryl_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_divine_beryl_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_fire_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_fire_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_haste_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_haste_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_ice_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_ice_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_lucky_citrine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_lucky_citrine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_spider_kunzite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_spider_kunzite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_spirit_garnet_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_spirit_garnet_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_unbreaking_iolite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_granite_unbreaking_iolite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_dive_aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_dive_aquamarine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_divine_beryl_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_divine_beryl_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_fire_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_fire_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_haste_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_haste_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_ice_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_ice_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_lucky_citrine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_lucky_citrine_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_spider_kunzite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_spider_kunzite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_spirit_garnet_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_spirit_garnet_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_unbreaking_iolite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:mm_tuff_unbreaking_iolite_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_andesite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_andesite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_diorite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_diorite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_granite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_granite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_tuff_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_tuff_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_andesite_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_andesite_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_diorite_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_diorite_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_granite_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_granite_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_tuff_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:cc_tuff_spinel_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_granite_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_granite_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_andesite_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_andesite_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_deepslate_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_deepslate_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_diorite_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_diorite_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_tuff_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_tuff_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_andesite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_andesite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_diorite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_diorite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_granite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_granite_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_tuff_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_tuff_silver_ore",
+      "required": false
+    },
+    {
+      "id": "spelunkeryplus:iaf_rough_sapphire_block",
+      "required": false
+    }
+  ]
+}

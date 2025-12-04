@@ -12,7 +12,7 @@
   "type": "create:sandpaper_polishing",
   "ingredients": [
     {
-      "item": "spelunkeryplus:mm_raw_spirit_garnet"
+      "item": "spelunkeryplus:mm_rough_spirit_garnet"
     }
   ],
   "results": [

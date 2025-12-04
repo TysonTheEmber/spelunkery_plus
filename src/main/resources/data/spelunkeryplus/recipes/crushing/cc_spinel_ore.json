@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    },
+    {
+      "modid": "caverns_and_chasms",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "caverns_and_chasms:spinel_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "spelunkeryplus:cc_rough_spinel",
+      "count": 2
+    },
+    {
+      "item": "spelunkeryplus:cc_rough_spinel",
+      "chance": 0.75
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:granite",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 350
+}

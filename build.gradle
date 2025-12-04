@@ -162,29 +162,27 @@ dependencies {
 
     implementation fg.deobf("curse.maven:geckolib-388172:6658942")
     implementation fg.deobf("curse.maven:blueprint-382216:6408581")
-    implementation fg.deobf("curse.maven:caverns-and-chasms-438005:6040957")
     implementation fg.deobf("curse.maven:valhelsia-core-416935:5189548")
-    implementation fg.deobf("curse.maven:forbidden-arcanus-309858:5198323")
     implementation fg.deobf("curse.maven:citadel-331936:5075402")
-    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5122408")
     implementation fg.deobf("curse.maven:cofh-core-69162:5374122")
+    implementation fg.deobf("curse.maven:selene-499980:6740431")
+    implementation fg.deobf("curse.maven:spelunkery-790530:6122072")
+
     implementation fg.deobf("curse.maven:embeddium-908741:5681725")
     implementation fg.deobf("curse.maven:magnesium-extras-558905:6041697")
-    implementation fg.deobf("curse.maven:create-328085:6641603")
     implementation fg.deobf("curse.maven:yeetusexperimentus-635427:4680832")
-
-
     implementation fg.deobf("curse.maven:world-stripper-250603:4578579")
+
     implementation fg.deobf("curse.maven:mining-master-534956:5540513")
-//    implementation fg.deobf("curse.maven:mining-master-534956:5540513")
+    implementation fg.deobf("curse.maven:caverns-and-chasms-438005:6040957")
+    implementation fg.deobf("curse.maven:forbidden-arcanus-309858:5198323")
+    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5122408")
+    implementation fg.deobf("curse.maven:create-328085:6641603")
 
-
-
-    implementation     fg.deobf("curse.maven:jei-238222:6600311")
-    implementation     fg.deobf("curse.maven:jei-integration-265917:4999754")
-    implementation     fg.deobf("curse.maven:emi-580555:6420945")
-    implementation     fg.deobf("curse.maven:selene-499980:6740431")
-    implementation     fg.deobf("curse.maven:spelunkery-790530:6122072")
+    implementation fg.deobf("curse.maven:jei-238222:6600311")
+    implementation fg.deobf("curse.maven:jei-integration-265917:4999754")
+    implementation fg.deobf("curse.maven:emi-580555:6420945")
+    implementation fg.deobf("curse.maven:jade-324717:6855440")
 
     runtimeOnly fg.deobf("curse.maven:screenshot-to-clipboard-326950:3643026")
 }
@@ -239,6 +237,7 @@ publishing {
         }
     }
     repositories {
+        mavenCentral()
         maven {
             url "file://${project.projectDir}/mcmodsrepo"
         }

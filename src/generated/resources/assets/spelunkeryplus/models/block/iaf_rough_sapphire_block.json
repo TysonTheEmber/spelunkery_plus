@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "spelunkeryplus:block/iaf_rough_sapphire_block"
+  }
+}

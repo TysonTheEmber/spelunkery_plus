@@ -22,32 +22,32 @@ public class ModItems {
             ModList.get().isLoaded("iceandfire") ? ITEMS.register("iaf_rough_sapphire_shard", () -> new Item(new Item.Properties())) : null;
 
     // Mining Master Items
-    public static final RegistryObject<Item> MM_RAW_AIR_MALACHITE =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_air_malachite", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_DIVE_AQUAMARINE =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_dive_aquamarine", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_DIVINE_BERYL =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_divine_beryl", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_FIRE_RUBY =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_fire_ruby", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_HASTE_PERIDOT =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_haste_peridot", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_HEART_RHODONITE =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_heart_rhodonite", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_ICE_SAPPHIRE =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_ice_sapphire", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_KINETIC_OPAL =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_kinetic_opal", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_LUCKY_CITRINE =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_lucky_citrine", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_POWER_PYRITE =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_power_pyrite", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_SPIDER_KUNZITE =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_spider_kunzite", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_SPIRIT_GARNET =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_spirit_garnet", () -> new Item(new Item.Properties())) : null;
-    public static final RegistryObject<Item> MM_RAW_UNBREAKING_IOLITE =
-            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_raw_unbreaking_iolite", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_AIR_MALACHITE =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_air_malachite", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_DIVE_AQUAMARINE =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_dive_aquamarine", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_DIVINE_BERYL =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_divine_beryl", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_FIRE_RUBY =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_fire_ruby", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_HASTE_PERIDOT =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_haste_peridot", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_HEART_RHODONITE =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_heart_rhodonite", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_ICE_SAPPHIRE =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_ice_sapphire", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_KINETIC_OPAL =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_kinetic_opal", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_LUCKY_CITRINE =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_lucky_citrine", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_POWER_PYRITE =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_power_pyrite", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_SPIDER_KUNZITE =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_spider_kunzite", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_SPIRIT_GARNET =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_spirit_garnet", () -> new Item(new Item.Properties())) : null;
+    public static final RegistryObject<Item> MM_ROUGH_UNBREAKING_IOLITE =
+            ModList.get().isLoaded("miningmaster") ? ITEMS.register("mm_rough_unbreaking_iolite", () -> new Item(new Item.Properties())) : null;
 
     // Caverns and Chasms Items
     public static final RegistryObject<Item> CC_ROUGH_SPINEL =

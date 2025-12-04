@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunkeryplus:mm_rough_unbreaking_iolite_block"
+    }
+  ],
+  "result": {
+    "item": "spelunkeryplus:mm_rough_unbreaking_iolite",
+    "count": 4
+  }
+}

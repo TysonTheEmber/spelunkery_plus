@@ -31,19 +31,19 @@ public class ModBlockStateProvider extends BlockStateProvider {
             blockWithItem(ModBlocks.IAF_TUFF_SILVER_ORE);
 
 
-            blockWithItem(ModBlocks.MM_RAW_AIR_MALACHITE_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_DIVE_AQUAMARINE_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_DIVINE_BERYL_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_FIRE_RUBY_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_HASTE_PERIDOT_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_HEART_RHODONITE_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_ICE_SAPPHIRE_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_KINETIC_OPAL_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_LUCKY_CITRINE_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_POWER_PYRITE_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_SPIDER_KUNZITE_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_SPIRIT_GARNET_BLOCK);
-            blockWithItem(ModBlocks.MM_RAW_UNBREAKING_IOLITE_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_AIR_MALACHITE_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_DIVE_AQUAMARINE_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_DIVINE_BERYL_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_FIRE_RUBY_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_HASTE_PERIDOT_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_HEART_RHODONITE_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_ICE_SAPPHIRE_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_KINETIC_OPAL_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_LUCKY_CITRINE_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_POWER_PYRITE_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_SPIDER_KUNZITE_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_SPIRIT_GARNET_BLOCK);
+            blockWithItem(ModBlocks.MM_ROUGH_UNBREAKING_IOLITE_BLOCK);
 
             blockWithItem(ModBlocks.MM_ANDESITE_DIVE_AQUAMARINE_ORE);
             blockWithItem(ModBlocks.MM_ANDESITE_DIVINE_BERYL_ORE);

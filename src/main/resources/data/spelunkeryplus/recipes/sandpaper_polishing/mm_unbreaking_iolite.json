@@ -12,7 +12,7 @@
   "type": "create:sandpaper_polishing",
   "ingredients": [
     {
-      "item": "spelunkeryplus:mm_raw_unbreaking_iolite"
+      "item": "spelunkeryplus:mm_rough_unbreaking_iolite"
     }
   ],
   "results": [

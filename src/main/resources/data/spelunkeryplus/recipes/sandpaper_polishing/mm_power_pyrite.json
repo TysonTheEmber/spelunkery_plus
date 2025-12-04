@@ -12,7 +12,7 @@
   "type": "create:sandpaper_polishing",
   "ingredients": [
     {
-      "item": "spelunkeryplus:mm_raw_power_pyrite"
+      "item": "spelunkeryplus:mm_rough_power_pyrite"
     }
   ],
   "results": [

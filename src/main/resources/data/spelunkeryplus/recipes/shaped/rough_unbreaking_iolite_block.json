@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "spelunkeryplus:mm_rough_unbreaking_iolite"
+    }
+  },
+  "result": {
+    "item": "spelunkeryplus:mm_rough_unbreaking_iolite_block"
+  }
+}

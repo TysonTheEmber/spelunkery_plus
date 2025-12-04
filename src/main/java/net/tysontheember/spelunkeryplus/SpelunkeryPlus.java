@@ -73,33 +73,33 @@ public class SpelunkeryPlus
                 event.accept(ModBlocks.IAF_TUFF_SILVER_ORE);
             }
             if (ModList.get().isLoaded("miningmaster")) {
-                event.accept(ModBlocks.MM_RAW_AIR_MALACHITE_BLOCK);
-                event.accept(ModBlocks.MM_RAW_DIVE_AQUAMARINE_BLOCK);
-                event.accept(ModBlocks.MM_RAW_DIVINE_BERYL_BLOCK);
-                event.accept(ModBlocks.MM_RAW_FIRE_RUBY_BLOCK);
-                event.accept(ModBlocks.MM_RAW_HASTE_PERIDOT_BLOCK);
-                event.accept(ModBlocks.MM_RAW_HEART_RHODONITE_BLOCK);
-                event.accept(ModBlocks.MM_RAW_ICE_SAPPHIRE_BLOCK);
-                event.accept(ModBlocks.MM_RAW_KINETIC_OPAL_BLOCK);
-                event.accept(ModBlocks.MM_RAW_LUCKY_CITRINE_BLOCK);
-                event.accept(ModBlocks.MM_RAW_POWER_PYRITE_BLOCK);
-                event.accept(ModBlocks.MM_RAW_SPIDER_KUNZITE_BLOCK);
-                event.accept(ModBlocks.MM_RAW_SPIRIT_GARNET_BLOCK);
-                event.accept(ModBlocks.MM_RAW_UNBREAKING_IOLITE_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_AIR_MALACHITE_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_DIVE_AQUAMARINE_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_DIVINE_BERYL_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_FIRE_RUBY_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_HASTE_PERIDOT_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_HEART_RHODONITE_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_ICE_SAPPHIRE_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_KINETIC_OPAL_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_LUCKY_CITRINE_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_POWER_PYRITE_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_SPIDER_KUNZITE_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_SPIRIT_GARNET_BLOCK);
+                event.accept(ModBlocks.MM_ROUGH_UNBREAKING_IOLITE_BLOCK);
 
-                event.accept(ModItems.MM_RAW_AIR_MALACHITE);
-                event.accept(ModItems.MM_RAW_DIVE_AQUAMARINE);
-                event.accept(ModItems.MM_RAW_DIVINE_BERYL);
-                event.accept(ModItems.MM_RAW_FIRE_RUBY);
-                event.accept(ModItems.MM_RAW_HASTE_PERIDOT);
-                event.accept(ModItems.MM_RAW_HEART_RHODONITE);
-                event.accept(ModItems.MM_RAW_ICE_SAPPHIRE);
-                event.accept(ModItems.MM_RAW_KINETIC_OPAL);
-                event.accept(ModItems.MM_RAW_LUCKY_CITRINE);
-                event.accept(ModItems.MM_RAW_POWER_PYRITE);
-                event.accept(ModItems.MM_RAW_SPIDER_KUNZITE);
-                event.accept(ModItems.MM_RAW_SPIRIT_GARNET);
-                event.accept(ModItems.MM_RAW_UNBREAKING_IOLITE);
+                event.accept(ModItems.MM_ROUGH_AIR_MALACHITE);
+                event.accept(ModItems.MM_ROUGH_DIVE_AQUAMARINE);
+                event.accept(ModItems.MM_ROUGH_DIVINE_BERYL);
+                event.accept(ModItems.MM_ROUGH_FIRE_RUBY);
+                event.accept(ModItems.MM_ROUGH_HASTE_PERIDOT);
+                event.accept(ModItems.MM_ROUGH_HEART_RHODONITE);
+                event.accept(ModItems.MM_ROUGH_ICE_SAPPHIRE);
+                event.accept(ModItems.MM_ROUGH_KINETIC_OPAL);
+                event.accept(ModItems.MM_ROUGH_LUCKY_CITRINE);
+                event.accept(ModItems.MM_ROUGH_POWER_PYRITE);
+                event.accept(ModItems.MM_ROUGH_SPIDER_KUNZITE);
+                event.accept(ModItems.MM_ROUGH_SPIRIT_GARNET);
+                event.accept(ModItems.MM_ROUGH_UNBREAKING_IOLITE);
                 //Andesite
                 event.accept(ModBlocks.MM_ANDESITE_DIVE_AQUAMARINE_ORE);
                 event.accept(ModBlocks.MM_ANDESITE_DIVINE_BERYL_ORE);
@@ -144,9 +144,10 @@ public class SpelunkeryPlus
             if (ModList.get().isLoaded("caverns_and_chasms")) {
 
                 event.accept(ModBlocks.CC_ANDESITE_SPINEL_ORE);
-                event.accept(ModBlocks.CC_TUFF_SPINEL_ORE);
-                event.accept(ModBlocks.CC_GRANITE_SPINEL_ORE);
                 event.accept(ModBlocks.CC_DIORITE_SPINEL_ORE);
+                event.accept(ModBlocks.CC_GRANITE_SPINEL_ORE);
+                event.accept(ModBlocks.CC_TUFF_SPINEL_ORE);
+                event.accept(ModBlocks.CC_ROUGH_SPINEL_BLOCK);
                 event.accept(ModItems.CC_ROUGH_SPINEL);
                 event.accept(ModItems.CC_ROUGH_SPINEL_SHARD);
                 event.accept(ModItems.CC_SPINEL_SHARD);

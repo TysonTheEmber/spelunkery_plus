@@ -53,111 +53,111 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
             this.add(ModBlocks.IAF_ANDESITE_SILVER_ORE.get(),
                     block -> createOreDrop(ModBlocks.IAF_ANDESITE_SILVER_ORE.get(),
-                            BuiltInRegistries.ITEM.get(new ResourceLocation("iceandfire:raw_silver"))));
+                            BuiltInRegistries.ITEM.get(new ResourceLocation("iceandfire:rough_silver"))));
 
             this.add(ModBlocks.IAF_GRANITE_SILVER_ORE.get(),
                     block -> createOreDrop(ModBlocks.IAF_GRANITE_SILVER_ORE.get(),
-                            BuiltInRegistries.ITEM.get(new ResourceLocation("iceandfire:raw_silver"))));
+                            BuiltInRegistries.ITEM.get(new ResourceLocation("iceandfire:rough_silver"))));
 
             this.add(ModBlocks.IAF_TUFF_SILVER_ORE.get(),
                     block -> createOreDrop(ModBlocks.IAF_TUFF_SILVER_ORE.get(),
-                            BuiltInRegistries.ITEM.get(new ResourceLocation("iceandfire:raw_silver"))));
+                            BuiltInRegistries.ITEM.get(new ResourceLocation("iceandfire:rough_silver"))));
 
             this.add(ModBlocks.IAF_DIORITE_SILVER_ORE.get(),
                     block -> createOreDrop(ModBlocks.IAF_DIORITE_SILVER_ORE.get(),
-                            BuiltInRegistries.ITEM.get(new ResourceLocation("iceandfire:raw_silver"))));
+                            BuiltInRegistries.ITEM.get(new ResourceLocation("iceandfire:rough_silver"))));
 
-            this.dropSelf(ModBlocks.MM_RAW_AIR_MALACHITE_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_DIVE_AQUAMARINE_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_DIVINE_BERYL_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_FIRE_RUBY_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_HASTE_PERIDOT_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_HEART_RHODONITE_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_ICE_SAPPHIRE_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_KINETIC_OPAL_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_LUCKY_CITRINE_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_POWER_PYRITE_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_SPIDER_KUNZITE_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_SPIRIT_GARNET_BLOCK.get());
-            this.dropSelf(ModBlocks.MM_RAW_UNBREAKING_IOLITE_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_AIR_MALACHITE_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_DIVE_AQUAMARINE_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_DIVINE_BERYL_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_FIRE_RUBY_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_HASTE_PERIDOT_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_HEART_RHODONITE_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_ICE_SAPPHIRE_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_KINETIC_OPAL_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_LUCKY_CITRINE_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_POWER_PYRITE_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_SPIDER_KUNZITE_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_SPIRIT_GARNET_BLOCK.get());
+            this.dropSelf(ModBlocks.MM_ROUGH_UNBREAKING_IOLITE_BLOCK.get());
 
 
             //Andesite
             this.add(ModBlocks.MM_ANDESITE_DIVE_AQUAMARINE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_ANDESITE_DIVE_AQUAMARINE_ORE.get(), ModItems.MM_RAW_DIVE_AQUAMARINE.get()));
+                    block -> createOreDrop(ModBlocks.MM_ANDESITE_DIVE_AQUAMARINE_ORE.get(), ModItems.MM_ROUGH_DIVE_AQUAMARINE.get()));
             this.add(ModBlocks.MM_ANDESITE_DIVINE_BERYL_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_ANDESITE_DIVINE_BERYL_ORE.get(), ModItems.MM_RAW_DIVINE_BERYL.get()));
+                    block -> createOreDrop(ModBlocks.MM_ANDESITE_DIVINE_BERYL_ORE.get(), ModItems.MM_ROUGH_DIVINE_BERYL.get()));
             this.add(ModBlocks.MM_ANDESITE_FIRE_RUBY_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_ANDESITE_FIRE_RUBY_ORE.get(), ModItems.MM_RAW_FIRE_RUBY.get()));
+                    block -> createOreDrop(ModBlocks.MM_ANDESITE_FIRE_RUBY_ORE.get(), ModItems.MM_ROUGH_FIRE_RUBY.get()));
             this.add(ModBlocks.MM_ANDESITE_HASTE_PERIDOT_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_ANDESITE_HASTE_PERIDOT_ORE.get(), ModItems.MM_RAW_HASTE_PERIDOT.get()));
+                    block -> createOreDrop(ModBlocks.MM_ANDESITE_HASTE_PERIDOT_ORE.get(), ModItems.MM_ROUGH_HASTE_PERIDOT.get()));
             this.add(ModBlocks.MM_ANDESITE_ICE_SAPPHIRE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_ANDESITE_ICE_SAPPHIRE_ORE.get(), ModItems.MM_RAW_ICE_SAPPHIRE.get()));
+                    block -> createOreDrop(ModBlocks.MM_ANDESITE_ICE_SAPPHIRE_ORE.get(), ModItems.MM_ROUGH_ICE_SAPPHIRE.get()));
             this.add(ModBlocks.MM_ANDESITE_LUCKY_CITRINE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_ANDESITE_LUCKY_CITRINE_ORE.get(), ModItems.MM_RAW_LUCKY_CITRINE.get()));
+                    block -> createOreDrop(ModBlocks.MM_ANDESITE_LUCKY_CITRINE_ORE.get(), ModItems.MM_ROUGH_LUCKY_CITRINE.get()));
             this.add(ModBlocks.MM_ANDESITE_SPIDER_KUNZITE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_ANDESITE_SPIDER_KUNZITE_ORE.get(), ModItems.MM_RAW_SPIDER_KUNZITE.get()));
+                    block -> createOreDrop(ModBlocks.MM_ANDESITE_SPIDER_KUNZITE_ORE.get(), ModItems.MM_ROUGH_SPIDER_KUNZITE.get()));
             this.add(ModBlocks.MM_ANDESITE_SPIRIT_GARNET_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_ANDESITE_SPIRIT_GARNET_ORE.get(), ModItems.MM_RAW_SPIRIT_GARNET.get()));
+                    block -> createOreDrop(ModBlocks.MM_ANDESITE_SPIRIT_GARNET_ORE.get(), ModItems.MM_ROUGH_SPIRIT_GARNET.get()));
             this.add(ModBlocks.MM_ANDESITE_UNBREAKING_IOLITE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_ANDESITE_UNBREAKING_IOLITE_ORE.get(), ModItems.MM_RAW_UNBREAKING_IOLITE.get()));
+                    block -> createOreDrop(ModBlocks.MM_ANDESITE_UNBREAKING_IOLITE_ORE.get(), ModItems.MM_ROUGH_UNBREAKING_IOLITE.get()));
             //Diorite
             this.add(ModBlocks.MM_DIORITE_DIVE_AQUAMARINE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_DIORITE_DIVE_AQUAMARINE_ORE.get(), ModItems.MM_RAW_DIVE_AQUAMARINE.get()));
+                    block -> createOreDrop(ModBlocks.MM_DIORITE_DIVE_AQUAMARINE_ORE.get(), ModItems.MM_ROUGH_DIVE_AQUAMARINE.get()));
             this.add(ModBlocks.MM_DIORITE_DIVINE_BERYL_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_DIORITE_DIVINE_BERYL_ORE.get(), ModItems.MM_RAW_DIVINE_BERYL.get()));
+                    block -> createOreDrop(ModBlocks.MM_DIORITE_DIVINE_BERYL_ORE.get(), ModItems.MM_ROUGH_DIVINE_BERYL.get()));
             this.add(ModBlocks.MM_DIORITE_FIRE_RUBY_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_DIORITE_FIRE_RUBY_ORE.get(), ModItems.MM_RAW_FIRE_RUBY.get()));
+                    block -> createOreDrop(ModBlocks.MM_DIORITE_FIRE_RUBY_ORE.get(), ModItems.MM_ROUGH_FIRE_RUBY.get()));
             this.add(ModBlocks.MM_DIORITE_HASTE_PERIDOT_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_DIORITE_HASTE_PERIDOT_ORE.get(), ModItems.MM_RAW_HASTE_PERIDOT.get()));
+                    block -> createOreDrop(ModBlocks.MM_DIORITE_HASTE_PERIDOT_ORE.get(), ModItems.MM_ROUGH_HASTE_PERIDOT.get()));
             this.add(ModBlocks.MM_DIORITE_ICE_SAPPHIRE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_DIORITE_ICE_SAPPHIRE_ORE.get(), ModItems.MM_RAW_ICE_SAPPHIRE.get()));
+                    block -> createOreDrop(ModBlocks.MM_DIORITE_ICE_SAPPHIRE_ORE.get(), ModItems.MM_ROUGH_ICE_SAPPHIRE.get()));
             this.add(ModBlocks.MM_DIORITE_LUCKY_CITRINE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_DIORITE_LUCKY_CITRINE_ORE.get(), ModItems.MM_RAW_LUCKY_CITRINE.get()));
+                    block -> createOreDrop(ModBlocks.MM_DIORITE_LUCKY_CITRINE_ORE.get(), ModItems.MM_ROUGH_LUCKY_CITRINE.get()));
             this.add(ModBlocks.MM_DIORITE_SPIDER_KUNZITE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_DIORITE_SPIDER_KUNZITE_ORE.get(), ModItems.MM_RAW_SPIDER_KUNZITE.get()));
+                    block -> createOreDrop(ModBlocks.MM_DIORITE_SPIDER_KUNZITE_ORE.get(), ModItems.MM_ROUGH_SPIDER_KUNZITE.get()));
             this.add(ModBlocks.MM_DIORITE_SPIRIT_GARNET_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_DIORITE_SPIRIT_GARNET_ORE.get(), ModItems.MM_RAW_SPIRIT_GARNET.get()));
+                    block -> createOreDrop(ModBlocks.MM_DIORITE_SPIRIT_GARNET_ORE.get(), ModItems.MM_ROUGH_SPIRIT_GARNET.get()));
             this.add(ModBlocks.MM_DIORITE_UNBREAKING_IOLITE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_DIORITE_UNBREAKING_IOLITE_ORE.get(), ModItems.MM_RAW_UNBREAKING_IOLITE.get()));
+                    block -> createOreDrop(ModBlocks.MM_DIORITE_UNBREAKING_IOLITE_ORE.get(), ModItems.MM_ROUGH_UNBREAKING_IOLITE.get()));
             //Granite
             this.add(ModBlocks.MM_GRANITE_DIVE_AQUAMARINE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_GRANITE_DIVE_AQUAMARINE_ORE.get(), ModItems.MM_RAW_DIVE_AQUAMARINE.get()));
+                    block -> createOreDrop(ModBlocks.MM_GRANITE_DIVE_AQUAMARINE_ORE.get(), ModItems.MM_ROUGH_DIVE_AQUAMARINE.get()));
             this.add(ModBlocks.MM_GRANITE_DIVINE_BERYL_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_GRANITE_DIVINE_BERYL_ORE.get(), ModItems.MM_RAW_DIVINE_BERYL.get()));
+                    block -> createOreDrop(ModBlocks.MM_GRANITE_DIVINE_BERYL_ORE.get(), ModItems.MM_ROUGH_DIVINE_BERYL.get()));
             this.add(ModBlocks.MM_GRANITE_FIRE_RUBY_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_GRANITE_FIRE_RUBY_ORE.get(), ModItems.MM_RAW_FIRE_RUBY.get()));
+                    block -> createOreDrop(ModBlocks.MM_GRANITE_FIRE_RUBY_ORE.get(), ModItems.MM_ROUGH_FIRE_RUBY.get()));
             this.add(ModBlocks.MM_GRANITE_HASTE_PERIDOT_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_GRANITE_HASTE_PERIDOT_ORE.get(), ModItems.MM_RAW_HASTE_PERIDOT.get()));
+                    block -> createOreDrop(ModBlocks.MM_GRANITE_HASTE_PERIDOT_ORE.get(), ModItems.MM_ROUGH_HASTE_PERIDOT.get()));
             this.add(ModBlocks.MM_GRANITE_ICE_SAPPHIRE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_GRANITE_ICE_SAPPHIRE_ORE.get(), ModItems.MM_RAW_ICE_SAPPHIRE.get()));
+                    block -> createOreDrop(ModBlocks.MM_GRANITE_ICE_SAPPHIRE_ORE.get(), ModItems.MM_ROUGH_ICE_SAPPHIRE.get()));
             this.add(ModBlocks.MM_GRANITE_LUCKY_CITRINE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_GRANITE_LUCKY_CITRINE_ORE.get(), ModItems.MM_RAW_LUCKY_CITRINE.get()));
+                    block -> createOreDrop(ModBlocks.MM_GRANITE_LUCKY_CITRINE_ORE.get(), ModItems.MM_ROUGH_LUCKY_CITRINE.get()));
             this.add(ModBlocks.MM_GRANITE_SPIDER_KUNZITE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_GRANITE_SPIDER_KUNZITE_ORE.get(), ModItems.MM_RAW_SPIDER_KUNZITE.get()));
+                    block -> createOreDrop(ModBlocks.MM_GRANITE_SPIDER_KUNZITE_ORE.get(), ModItems.MM_ROUGH_SPIDER_KUNZITE.get()));
             this.add(ModBlocks.MM_GRANITE_SPIRIT_GARNET_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_GRANITE_SPIRIT_GARNET_ORE.get(), ModItems.MM_RAW_SPIRIT_GARNET.get()));
+                    block -> createOreDrop(ModBlocks.MM_GRANITE_SPIRIT_GARNET_ORE.get(), ModItems.MM_ROUGH_SPIRIT_GARNET.get()));
             this.add(ModBlocks.MM_GRANITE_UNBREAKING_IOLITE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_GRANITE_UNBREAKING_IOLITE_ORE.get(), ModItems.MM_RAW_UNBREAKING_IOLITE.get()));
+                    block -> createOreDrop(ModBlocks.MM_GRANITE_UNBREAKING_IOLITE_ORE.get(), ModItems.MM_ROUGH_UNBREAKING_IOLITE.get()));
             //Tuff
             this.add(ModBlocks.MM_TUFF_DIVE_AQUAMARINE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_TUFF_DIVE_AQUAMARINE_ORE.get(), ModItems.MM_RAW_DIVE_AQUAMARINE.get()));
+                    block -> createOreDrop(ModBlocks.MM_TUFF_DIVE_AQUAMARINE_ORE.get(), ModItems.MM_ROUGH_DIVE_AQUAMARINE.get()));
             this.add(ModBlocks.MM_TUFF_DIVINE_BERYL_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_TUFF_DIVINE_BERYL_ORE.get(), ModItems.MM_RAW_DIVINE_BERYL.get()));
+                    block -> createOreDrop(ModBlocks.MM_TUFF_DIVINE_BERYL_ORE.get(), ModItems.MM_ROUGH_DIVINE_BERYL.get()));
             this.add(ModBlocks.MM_TUFF_FIRE_RUBY_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_TUFF_FIRE_RUBY_ORE.get(), ModItems.MM_RAW_FIRE_RUBY.get()));
+                    block -> createOreDrop(ModBlocks.MM_TUFF_FIRE_RUBY_ORE.get(), ModItems.MM_ROUGH_FIRE_RUBY.get()));
             this.add(ModBlocks.MM_TUFF_HASTE_PERIDOT_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_TUFF_HASTE_PERIDOT_ORE.get(), ModItems.MM_RAW_HASTE_PERIDOT.get()));
+                    block -> createOreDrop(ModBlocks.MM_TUFF_HASTE_PERIDOT_ORE.get(), ModItems.MM_ROUGH_HASTE_PERIDOT.get()));
             this.add(ModBlocks.MM_TUFF_ICE_SAPPHIRE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_TUFF_ICE_SAPPHIRE_ORE.get(), ModItems.MM_RAW_ICE_SAPPHIRE.get()));
+                    block -> createOreDrop(ModBlocks.MM_TUFF_ICE_SAPPHIRE_ORE.get(), ModItems.MM_ROUGH_ICE_SAPPHIRE.get()));
             this.add(ModBlocks.MM_TUFF_LUCKY_CITRINE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_TUFF_LUCKY_CITRINE_ORE.get(), ModItems.MM_RAW_LUCKY_CITRINE.get()));
+                    block -> createOreDrop(ModBlocks.MM_TUFF_LUCKY_CITRINE_ORE.get(), ModItems.MM_ROUGH_LUCKY_CITRINE.get()));
             this.add(ModBlocks.MM_TUFF_SPIDER_KUNZITE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_TUFF_SPIDER_KUNZITE_ORE.get(), ModItems.MM_RAW_SPIDER_KUNZITE.get()));
+                    block -> createOreDrop(ModBlocks.MM_TUFF_SPIDER_KUNZITE_ORE.get(), ModItems.MM_ROUGH_SPIDER_KUNZITE.get()));
             this.add(ModBlocks.MM_TUFF_SPIRIT_GARNET_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_TUFF_SPIRIT_GARNET_ORE.get(), ModItems.MM_RAW_SPIRIT_GARNET.get()));
+                    block -> createOreDrop(ModBlocks.MM_TUFF_SPIRIT_GARNET_ORE.get(), ModItems.MM_ROUGH_SPIRIT_GARNET.get()));
             this.add(ModBlocks.MM_TUFF_UNBREAKING_IOLITE_ORE.get(),
-                    block -> createOreDrop(ModBlocks.MM_TUFF_UNBREAKING_IOLITE_ORE.get(), ModItems.MM_RAW_UNBREAKING_IOLITE.get()));
+                    block -> createOreDrop(ModBlocks.MM_TUFF_UNBREAKING_IOLITE_ORE.get(), ModItems.MM_ROUGH_UNBREAKING_IOLITE.get()));
 
 
             this.dropSelf(ModBlocks.CC_ROUGH_SPINEL_BLOCK.get());
@@ -171,13 +171,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                     block -> createOreDrop(ModBlocks.CC_TUFF_SPINEL_ORE.get(), ModItems.CC_ROUGH_SPINEL.get()));
 
             this.add(ModBlocks.CC_ANDESITE_SILVER_ORE.get(),
-                    block -> createOreDrop(ModBlocks.CC_ANDESITE_SILVER_ORE.get(), BuiltInRegistries.ITEM.get(new ResourceLocation("caverns_and_chasms:raw_silver"))));
+                    block -> createOreDrop(ModBlocks.CC_ANDESITE_SILVER_ORE.get(), BuiltInRegistries.ITEM.get(new ResourceLocation("caverns_and_chasms:rough_silver"))));
             this.add(ModBlocks.CC_GRANITE_SILVER_ORE.get(),
-                    block -> createOreDrop(ModBlocks.CC_GRANITE_SILVER_ORE.get(), BuiltInRegistries.ITEM.get(new ResourceLocation("caverns_and_chasms:raw_silver"))));
+                    block -> createOreDrop(ModBlocks.CC_GRANITE_SILVER_ORE.get(), BuiltInRegistries.ITEM.get(new ResourceLocation("caverns_and_chasms:rough_silver"))));
             this.add(ModBlocks.CC_DIORITE_SILVER_ORE.get(),
-                    block -> createOreDrop(ModBlocks.CC_DIORITE_SILVER_ORE.get(), BuiltInRegistries.ITEM.get(new ResourceLocation("caverns_and_chasms:raw_silver"))));
+                    block -> createOreDrop(ModBlocks.CC_DIORITE_SILVER_ORE.get(), BuiltInRegistries.ITEM.get(new ResourceLocation("caverns_and_chasms:rough_silver"))));
             this.add(ModBlocks.CC_TUFF_SILVER_ORE.get(),
-                    block -> createOreDrop(ModBlocks.CC_TUFF_SILVER_ORE.get(), BuiltInRegistries.ITEM.get(new ResourceLocation("caverns_and_chasms:raw_silver"))));
+                    block -> createOreDrop(ModBlocks.CC_TUFF_SILVER_ORE.get(), BuiltInRegistries.ITEM.get(new ResourceLocation("caverns_and_chasms:rough_silver"))));
 
 
 

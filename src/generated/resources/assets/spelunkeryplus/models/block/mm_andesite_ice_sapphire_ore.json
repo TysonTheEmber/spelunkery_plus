@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "spelunkeryplus:block/mm_andesite_ice_sapphire_ore"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "iceandfire"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "iceandfire:sapphire_gem"
+          }
+        ],
+        "result": {
+          "count": 9,
+          "item": "spelunkeryplus:iaf_sapphire_shard"
+        }
+      }
+    }
+  ]
+}

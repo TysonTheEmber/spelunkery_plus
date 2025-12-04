@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunkeryplus:mm_rough_divine_beryl_block"
+    }
+  ],
+  "result": {
+    "item": "spelunkeryplus:mm_rough_divine_beryl",
+    "count": 4
+  }
+}

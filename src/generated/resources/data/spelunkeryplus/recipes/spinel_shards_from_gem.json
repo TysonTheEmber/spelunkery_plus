@@ -1,0 +1,26 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "caverns_and_chasms"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "caverns_and_chasms:spinel"
+          }
+        ],
+        "result": {
+          "count": 9,
+          "item": "spelunkeryplus:cc_spinel_shard"
+        }
+      }
+    }
+  ]
+}
