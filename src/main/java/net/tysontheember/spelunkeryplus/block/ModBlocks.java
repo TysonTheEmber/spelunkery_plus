@@ -2,9 +2,9 @@ package net.tysontheember.spelunkeryplus.block;
 
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.tysontheember.spelunkeryplus.SpelunkeryPlus;
+import net.tysontheember.spelunkeryplus.compat.forbidden_arcanus.FACompatRegistry;
 import net.tysontheember.spelunkeryplus.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -16,14 +16,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.valhelsia.valhelsia_core.api.client.ValhelsiaRenderType;
-import net.valhelsia.valhelsia_core.api.common.registry.helper.block.BlockRegistryEntry;
 
 import net.minecraftforge.fml.ModList;
 
 import java.util.function.Supplier;
-
-import static com.stal111.forbidden_arcanus.core.init.ModBlocks.HELPER;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -485,144 +481,15 @@ public class ModBlocks {
 
 
 
-    //Forbidden And Arcanus
-    public static final BlockRegistryEntry<DropExperienceBlock> FA_ANDESITE_ARCANE_CRYSTAL_ORE =
-            ModList.get().isLoaded("forbidden_arcanus")
-                    ? HELPER.register(
-                            "fa_andesite_arcane_crystal_ore",
-                            () -> new DropExperienceBlock(
-                                    BlockBehaviour.Properties.of()
-                                            .mapColor(MapColor.STONE)
-                                            .instrument(NoteBlockInstrument.BASEDRUM)
-                                            .requiresCorrectToolForDrops()
-                                            .strength(3.0F),
-                                    UniformInt.of(2, 5)
-                            )
-                    )
-                    .withItem()
-                    .renderType(ValhelsiaRenderType.CUTOUT)
-                    : null;
-
-    public static final BlockRegistryEntry<DropExperienceBlock> FA_DIORITE_ARCANE_CRYSTAL_ORE =
-            ModList.get().isLoaded("forbidden_arcanus")
-                    ? HELPER.register(
-                            "fa_diorite_arcane_crystal_ore",
-                            () -> new DropExperienceBlock(
-                                    BlockBehaviour.Properties.of()
-                                            .mapColor(MapColor.STONE)
-                                            .instrument(NoteBlockInstrument.BASEDRUM)
-                                            .requiresCorrectToolForDrops()
-                                            .strength(3.0F),
-                                    UniformInt.of(2, 5)
-                            )
-                    )
-                    .withItem()
-                    .renderType(ValhelsiaRenderType.CUTOUT)
-                    : null;
-
-    public static final BlockRegistryEntry<DropExperienceBlock> FA_GRANITE_ARCANE_CRYSTAL_ORE =
-            ModList.get().isLoaded("forbidden_arcanus")
-                    ? HELPER.register(
-                            "fa_granite_arcane_crystal_ore",
-                            () -> new DropExperienceBlock(
-                                    BlockBehaviour.Properties.of()
-                                            .mapColor(MapColor.STONE)
-                                            .instrument(NoteBlockInstrument.BASEDRUM)
-                                            .requiresCorrectToolForDrops()
-                                            .strength(3.0F),
-                                    UniformInt.of(2, 5)
-                            )
-                    )
-                    .withItem()
-                    .renderType(ValhelsiaRenderType.CUTOUT)
-                    : null;
-
-    public static final BlockRegistryEntry<DropExperienceBlock> FA_TUFF_ARCANE_CRYSTAL_ORE =
-            ModList.get().isLoaded("forbidden_arcanus")
-                    ? HELPER.register(
-                            "fa_tuff_arcane_crystal_ore",
-                            () -> new DropExperienceBlock(
-                                    BlockBehaviour.Properties.of()
-                                            .mapColor(MapColor.STONE)
-                                            .instrument(NoteBlockInstrument.BASEDRUM)
-                                            .requiresCorrectToolForDrops()
-                                            .strength(3.0F),
-                                    UniformInt.of(2, 5)
-                            )
-                    )
-                    .withItem()
-                    .renderType(ValhelsiaRenderType.CUTOUT)
-                    : null;
-
-
-
-    public static final BlockRegistryEntry<DropExperienceBlock> FA_RUNIC_ANDESITE =
-            ModList.get().isLoaded("forbidden_arcanus")
-                    ? HELPER.register(
-                            "fa_runic_andesite",
-                            () -> new DropExperienceBlock(
-                                    BlockBehaviour.Properties.of()
-                                            .mapColor(MapColor.STONE)
-                                            .instrument(NoteBlockInstrument.BASEDRUM)
-                                            .requiresCorrectToolForDrops()
-                                            .strength(3.0F),
-                                    UniformInt.of(2, 5)
-                            )
-                    )
-                    .withItem()
-                    .renderType(ValhelsiaRenderType.CUTOUT)
-                    : null;
-
-    public static final BlockRegistryEntry<DropExperienceBlock> FA_RUNIC_DIORITE =
-            ModList.get().isLoaded("forbidden_arcanus")
-                    ? HELPER.register(
-                            "fa_runic_diorite",
-                            () -> new DropExperienceBlock(
-                                    BlockBehaviour.Properties.of()
-                                            .mapColor(MapColor.STONE)
-                                            .instrument(NoteBlockInstrument.BASEDRUM)
-                                            .requiresCorrectToolForDrops()
-                                            .strength(3.0F),
-                                    UniformInt.of(2, 5)
-                            )
-                    )
-                    .withItem()
-                    .renderType(ValhelsiaRenderType.CUTOUT)
-                    : null;
-
-    public static final BlockRegistryEntry<DropExperienceBlock> FA_RUNIC_GRANITE =
-            ModList.get().isLoaded("forbidden_arcanus")
-                    ? HELPER.register(
-                            "fa_runic_granite",
-                            () -> new DropExperienceBlock(
-                                    BlockBehaviour.Properties.of()
-                                            .mapColor(MapColor.STONE)
-                                            .instrument(NoteBlockInstrument.BASEDRUM)
-                                            .requiresCorrectToolForDrops()
-                                            .strength(3.0F),
-                                    UniformInt.of(2, 5)
-                            )
-                    )
-                    .withItem()
-                    .renderType(ValhelsiaRenderType.CUTOUT)
-                    : null;
-
-    public static final BlockRegistryEntry<DropExperienceBlock> FA_RUNIC_TUFF =
-            ModList.get().isLoaded("forbidden_arcanus")
-                    ? HELPER.register(
-                            "fa_runic_tuff",
-                            () -> new DropExperienceBlock(
-                                    BlockBehaviour.Properties.of()
-                                            .mapColor(MapColor.STONE)
-                                            .instrument(NoteBlockInstrument.BASEDRUM)
-                                            .requiresCorrectToolForDrops()
-                                            .strength(3.0F),
-                                    UniformInt.of(2, 5)
-                            )
-                    )
-                    .withItem()
-                    .renderType(ValhelsiaRenderType.CUTOUT)
-                    : null;
+    // Forbidden Arcanus compat ids are registered in the forbidden_arcanus namespace.
+    public static final RegistryObject<Block> FA_ANDESITE_ARCANE_CRYSTAL_ORE = FACompatRegistry.FA_ANDESITE_ARCANE_CRYSTAL_ORE;
+    public static final RegistryObject<Block> FA_DIORITE_ARCANE_CRYSTAL_ORE = FACompatRegistry.FA_DIORITE_ARCANE_CRYSTAL_ORE;
+    public static final RegistryObject<Block> FA_GRANITE_ARCANE_CRYSTAL_ORE = FACompatRegistry.FA_GRANITE_ARCANE_CRYSTAL_ORE;
+    public static final RegistryObject<Block> FA_TUFF_ARCANE_CRYSTAL_ORE = FACompatRegistry.FA_TUFF_ARCANE_CRYSTAL_ORE;
+    public static final RegistryObject<Block> FA_RUNIC_ANDESITE = FACompatRegistry.FA_RUNIC_ANDESITE;
+    public static final RegistryObject<Block> FA_RUNIC_DIORITE = FACompatRegistry.FA_RUNIC_DIORITE;
+    public static final RegistryObject<Block> FA_RUNIC_GRANITE = FACompatRegistry.FA_RUNIC_GRANITE;
+    public static final RegistryObject<Block> FA_RUNIC_TUFF = FACompatRegistry.FA_RUNIC_TUFF;
 
 
 

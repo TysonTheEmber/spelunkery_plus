@@ -59,7 +59,7 @@ public class ModItems {
 
     // Forbidden Arcanus Items
     public static final RegistryObject<Item> FA_ROUGH_ARCANE_CRYSTAL =
-            ModList.get().isLoaded("forbidden_arcanus") ? ITEMS.register("fa_rough_arcane_crystal", () -> new Item(new Item.Properties())) : null;
+            ITEMS.register("fa_rough_arcane_crystal", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

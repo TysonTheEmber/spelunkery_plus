@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.tysontheember.spelunkeryplus.block.ModBlocks;
+import net.tysontheember.spelunkeryplus.compat.forbidden_arcanus.FACompatRegistry;
 import net.tysontheember.spelunkeryplus.item.ModItems;
 import net.tysontheember.spelunkeryplus.world.features.ModFeatures;
 import org.slf4j.Logger;
@@ -34,6 +35,8 @@ public class SpelunkeryPlus
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModFeatures.register(modEventBus);
+        // Registry entries must be identical across client/server or Forge handshake fails.
+        FACompatRegistry.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
